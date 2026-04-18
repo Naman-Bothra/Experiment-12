@@ -9,7 +9,17 @@ PRN - 25070123078
 
 # Theory:
 
-In this experiment we used pandas lbrary and commands under pandas library to categorically arrange the given data in various groups , there percentages , categorical count and various other functions using the commands under the pandas library. Pandas library in pyhton is widely used for data analysis and data cleaning.
+In this experiment we used pandas lbrary and commands under pandas library to categorically arrange the given data in various groups , there percentages , categorical count and various other functions using the commands under the pandas library. Pandas library in pyhton is widely used for data analysis and data cleaning.Categorical data represents types of data which may be divided into groups. In Python, the `pandas` library provides powerful tools for this:
+* **Frequency Distribution:** Identifying how often each category (e.g., 'Grade' or 'Department') occurs.
+* **Cross-tabulation (Crosstab):** A method to compute a simple cross-tabulation of two or more factors, showing the relationship between variables (e.g., Gender vs. Grade).
+* **Normalization:** Converting raw counts into percentages or proportions to understand the relative distribution.
+* **Grouping & Filtering:** Segmenting data based on specific criteria to extract targeted insights.
+
+### 3. Logic
+The analysis follows a three-step logical flow:
+1.  **Exploration:** Loading the data and viewing the first few rows to understand the structure.
+2.  **Univariate Analysis:** Counting occurrences of single variables (value counts) to find the most/least common categories.
+3.  **Bivariate Analysis:** Using `crosstab` and `groupby` to see how two variables interact (e.g., which department has the most female students).
 
 in this experiment we work we two sets of data and performm various types of pandas commands to categorically furnish the data
 
